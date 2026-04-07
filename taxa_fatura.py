@@ -12,8 +12,7 @@ pdf_destino = downloads_folder
 
 # === LISTA DE DATAS DE PROCESSAMENTO ===
 listprocessamento = [
-    "2026-01-01","2026-01-03","2026-01-06","2026-01-08","2026-01-11","2026-01-13","2026-01-16","2026-01-18",
-    "2026-01-27","2026-01-29","2026-02-01","2026-02-03","2026-02-06","2026-02-08","2026-02-11","2026-02-13",
+    "2026-01-01"
 
 ]
 datas_processamento = [datetime.strptime(data_str, "%Y-%m-%d").date() for data_str in listprocessamento]
